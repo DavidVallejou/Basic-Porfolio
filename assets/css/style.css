@@ -1,0 +1,28 @@
+.name 
+{
+    color:white;
+    width: 250px;
+}
+.name
+{
+    background-color: #4aaaa5
+}
+.me 
+{
+    color: #4aaaa5;
+    
+}
+body
+{
+    background-image: url(../images/floor-tile.png)
+}
+header
+{
+    background:red;
+}
+
+#aboutme {
+    box-sizing: border-box;
+    float: left;
+    width: 960px;
+}
