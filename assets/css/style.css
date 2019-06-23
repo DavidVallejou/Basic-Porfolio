@@ -2,10 +2,7 @@
 {
     color:white;
     width: 250px;
-}
-.name
-{
-    background-color: #4aaaa5
+ background-color: #4aaaa5;
 }
 .me 
 {
@@ -16,13 +13,163 @@ body
 {
     background-image: url(../images/floor-tile.png)
 }
-header
-{
-    background:red;
-}
+
 
 #aboutme {
+    
+    width: 960px;
+
+    
+    
+}
+
+.about {
+    float: right;
+    font-size: 25px;
+    
+}
+
+.port {
+    float: right; 
+    font-size: 25px;
+}
+
+.contactme {
+    float: right;
+    font-size: 25px;
+}
+
+.button{
+    color: white;
+    background-color: #4aaaa5
+}
+.message1 {
+    width: 50%;
+    padding: 12px 20px;
+    margin: 8px 0;
     box-sizing: border-box;
+}
+.message2 {
+    width: 50%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box; 
+}
+.message3 {
+    width: 50%;
+    height: 200px;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box; 
+}
+
+ul li{
+    list-style: none;
+    display: inline-block;
+    line-height: 100px;
+    padding: 0 20px;
+}
+li{
+float: right;
+}
+ul li a{
+    display: block;
+    text-decoration: none;
+    font-size: 14px;
+    color: rgb(26, 25, 25)
+}
+.center{
+    margin: auto;
+    width: 960px;
+    border: 3px solid rgb(236, 236, 236);
+    padding: 40px;
+    background-color: #fff;
+    height: 500px;
+}
+.text{
+    margin: 10px;
+    width: 25%;
     float: left;
+    clear: both;
+}
+footer{
+    text-align: center;
+    padding: 20px;
+    background-color: grey;
+    color: #fff;
+    font-size: 12px;
+}
+nav{
+    height: 125px;
+    background-color: #fff;
+    width: 100;
+
+}
+.firstname{
+    height: 100px;
+    width:200px;
+    margin:auto;
+    padding:10px;
+    background-color:teal;
+    float: left;
+    color:white;
+    
+}
+.navi {
+    height: 50px;
+}
+.middle {
+    margin: auto;
     width: 960px;
 }
+
+h1 {
+    font-size: 25px;
+}
+h2{
+    color: teal;
+}
+
+
+
+
+.pic {
+    float: left;
+    width: 200px;
+    height: 200px;
+    padding: 10px;
+
+}
+article {
+    float: right;
+    
+    padding: 20px 20px 20px 20px;
+    margin: 20px;
+
+}
+.photos {
+    position: relative;
+}
+
+.pic1,
+.pic2,
+.pic3,
+.pic4,
+.pic5 {
+  
+   
+}
+.column {
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+  }
+  
+  /* Clearfix (clear floats) */
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+    
+
